@@ -1,0 +1,27 @@
+/**
+* Description: Core theme for Lydia
+*/
+
+/**
+* Structure
+*/
+html{}
+body{
+   background-color:#eee;
+   font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header,
+#main,
+#footer {
+   margin:0 auto;
+   width:970px;
+   padding-top:1em;
+   padding-bottom:1em;
+}
+
+#header{background:black;color:#eee;text-align:center;text-transform:uppercase;}
+article {background:grey;}
+p {margin-left:1em;}
+#debug {background:gold;overflow:auto;border-top:3px dashed black;}
+#footer {font-size:0.7em;background:grey;border-top:3px dashed black;}
